@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://bigota.d.miui.com/V12.0.3.0.QEAMIXM/miui_MI8Global_V12.0.3.0.QEAMIXM_7619340f8c_10.0.zip'
+        default: 'http://bigota.d.miui.com/V11.0.3.0.QEAMIXM/miui_MI8Global_V11.0.3.0.QEAMIXM_785bed5822_10.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -18,7 +18,7 @@ on:
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
-        default: 'AB'
+        default: 'A'
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
